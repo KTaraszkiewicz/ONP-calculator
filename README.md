@@ -32,13 +32,16 @@ Remember to clean up any unused memory. Memory leaks will be penalized.
 Examples can be found below the Polish version of the instruction.
 
 ### Example input:
+```
 4
 MIN ( 100 , MAX ( 1 , 34 , 2 ) , 80 ,  MIN ( 66 , 36  , 35 , 77 ) , 50 , 60 ) .
 2 + MIN ( 100 , MAX ( 1 , 6 * 5 + 2 , 2 ) , 80 ,  MIN ( 66 , 36  , 35 , 77 ) , 50 , 60 ) * 3 .
 N 400 + ( 11 - ( 3 * 2 ) ) / 2 + N N 200 .
 IF ( ( 6 + 8 ) , ( 4 / 2 ) , MIN ( 8 , 2 , 1 , 0 , 3 ) ) * 2 * 6 / N ( 3 ) .
+```
 
 ### Example output:
+```
 100  1  34  2  MAX3  80  66  36  35  77  MIN4  50  60  MIN6
 MAX3 2 34 1 100
 MIN4 77 35 36 66 80 34 100
@@ -71,10 +74,10 @@ N -200 -398
 / 2 4 14
 MIN5 3 0 1 2 8 2 14
 IF 0 2 14
-
-## All you see is for academic purposes and future job recruitment stage.
 * 2 2
 * 6 4
 N 3 24
 / -3 24
 -8
+```
+## All you see is for academic purposes and future job recruitment stage.
