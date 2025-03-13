@@ -1,5 +1,6 @@
 # ONP-calculator
 ## Academic project for subject: Algorytmy i struktury danych
+Stack and queue are implemented by me as a part of the task.
 ### Description of the task:
 
 Write an integer calculator. Use the postfix notation to handle precedence of operators, functions and parentheses.
